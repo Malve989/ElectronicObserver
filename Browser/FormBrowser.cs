@@ -29,7 +29,7 @@ namespace Browser
 	public partial class FormBrowser : Form, BrowserLib.IBrowser
 	{
 
-		private readonly Size KanColleSize = new Size(1200, 720);
+		private readonly Size KanColleSize = new Size(1500, 900);
 		private readonly string BrowserCachePath = "BrowserCache";
 
 		private readonly string StyleClassID = Guid.NewGuid().ToString().Substring(0, 8);
